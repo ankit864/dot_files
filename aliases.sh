@@ -14,3 +14,12 @@ alias ta="tmux attach"
 alias cdd="cd $1 && ls"
 alias conf="cd /etc/"
 
+#LXC RELATED
+
+alias lsl="lxc-ls"
+alias startl="lxc-start -n $1"
+alias confl="cd /var/lib/lxc/"
+
+#bridge network start
+alias brs="brctl show"
+alias vsd="virsh net-start default"
