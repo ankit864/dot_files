@@ -33,3 +33,12 @@ alias ga="git add $1"
 
 #ipython notebook
 alias  ipyn="ipython notebook"
+
+#Docker related
+alias dcr="docker ps"
+alias dc="docker ps -a"
+alias di="docker images"
+alias dins="docker inspect"
+alias drm="docker rm $1"
+alias drmi="docker rmi $1"
+
