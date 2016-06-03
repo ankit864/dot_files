@@ -42,3 +42,11 @@ alias dins="docker inspect"
 alias drm="docker rm $1"
 alias drmi="docker rmi $1"
 
+#system related 
+alias cputemp='sensors | grep Core'
+
+#file related
+alias untarz='tar -xzf'
+alias untarj='tar -xjf'
+alias chx='chmod 755'
+alias chr='chmod 644'
